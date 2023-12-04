@@ -10,7 +10,7 @@ export class PrismaService extends PrismaClient implements OnModuleInit {
     } catch (error) {
       console.log(
         '🚀 ~ file: prisma.service.ts:11 ~ PrismaService ~ onModuleInit ~ error:',
-        error,
+        error
       );
     }
   }
